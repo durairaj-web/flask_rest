@@ -1,0 +1,2 @@
+LIST_USERS_QUERY = "SELECT * FROM users"
+GET_USER_QUERY = "SELECT * FROM users WHERE id={}"

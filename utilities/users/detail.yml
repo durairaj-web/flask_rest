@@ -1,0 +1,29 @@
+openapi: 3.0.0
+tags:
+  - Users
+summary: "Users"
+description: ""
+operationId: "Users detail"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+parameters:
+- in: "path"
+  name: "id"
+  type: "integer"
+  required: "true"
+responses:
+  '200':
+    description: Successful response
+    content:
+      application/json: {}
+  '400':
+    description: "Same response is for 202, 400, 403"
+    schema:
+      type: "object"
+      properties:
+        status:
+          type: "string"
+        description:
+          type: "string"

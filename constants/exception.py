@@ -1,0 +1,1 @@
+UNHANDLED_EXCEPTION = {"status": False, "error": "UNHANDLED_EXCEPTION"}
